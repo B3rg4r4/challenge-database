@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0118942-5095-59C5-ACAB-20A28F85463A" name="Relation_10">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_OFICINAS_id_oficinas" id="8469E3DD-0787-632B-710F-8E69DF52B948">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2765437A-5A16-F00C-B755-C5A390122E14" referredColumn="1C1BAE86-6609-45EF-6787-86BBB53A65AE"/>
+</associations>
+</Column>
+<Column name="T_FUNCIONARIO_id_funcionario" id="3F22F18C-C12A-DD9C-AE38-606AD0191245">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B29D5B8A-8100-9448-AA74-D9956BF07271" referredColumn="298EC47D-7A7A-A233-F510-27666D6242A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="950AEEB5-FEFB-D6C3-1096-DEF0496CD138" name="Relation_10_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8469E3DD-0787-632B-710F-8E69DF52B948"/>
+<colUsage columnID="3F22F18C-C12A-DD9C-AE38-606AD0191245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF7F35A6-E6BC-4E03-ACC0-463A911F3E89" name="Relation_10_T_OFICINAS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>EEA9B289-F8CE-F5A3-DD42-6A5584C9A7F4</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8469E3DD-0787-632B-710F-8E69DF52B948"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="593A67FE-FAFB-9D84-4F01-45AC3EB093EA" name="Relation_10_T_FUNCIONARIO_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>EEA9B289-F8CE-F5A3-DD42-6A5584C9A7F4</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F22F18C-C12A-DD9C-AE38-606AD0191245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

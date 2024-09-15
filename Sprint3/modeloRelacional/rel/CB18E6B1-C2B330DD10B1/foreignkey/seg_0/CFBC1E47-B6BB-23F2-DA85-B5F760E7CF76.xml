@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CFBC1E47-B6BB-23F2-DA85-B5F760E7CF76" containerWithKeyObject="9CEA99F0-EC79-1BA6-840C-A318565A3051" localFKIndex="BD305933-92E4-6982-4DDB-D64FC4B134F9" name="Relation_9_T_PECAS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>BEC2C657-7D66-4133-B09A-0466E0D92140</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<referredTableLongName>T_PECAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5E32852-BFE6-2788-BB62-4B0043F2E873</referredTableID>
+<keyObject>CB82E327-1422-9277-1AE1-B015E9508026</keyObject>
+<referredKeyID>CB82E327-1422-9277-1AE1-B015E9508026</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pecas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

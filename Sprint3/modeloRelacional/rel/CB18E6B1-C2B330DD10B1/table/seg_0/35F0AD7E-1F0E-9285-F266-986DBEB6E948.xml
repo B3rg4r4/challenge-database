@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35F0AD7E-1F0E-9285-F266-986DBEB6E948" name="T_ORCAMENTOS">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>8926FE37-7697-D135-C0A8-C3362025CE68</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orcamento" id="79D89939-466B-20FA-909F-055673FA7341">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>2253FA46-47AE-1E6F-8694-B3B7AF069D2E</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="1110D2E6-35E9-B8F8-9174-880A9AA7851C">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>96A2820A-BB00-3DEB-1C15-44271DC7673A</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo" id="520157D8-A0DC-17DB-5164-8396D6B19FEB">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>7AC5A983-CFA6-7BBA-02A4-6EB06210B418</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_VEICULOS_placa" id="38E20BDC-284F-EE4E-4A9F-63BA33137772">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>4A464071-B47F-62D9-A77C-FFC7B0FD4DEE</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AB38213-DA67-754E-A4BD-A4789BE7DDBF" referredColumn="61792F15-F85E-F1AC-2036-0E8571B0AC87"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E23E519-493F-16F2-2C9F-8A86F6A4959C" name="T_ORCAMENTOS_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>554F9EC1-7FD7-13C4-D12E-A081F8FD7529</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D89939-466B-20FA-909F-055673FA7341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAF25B1B-9AC3-FC55-435D-6DA646CBE04E" name="T_ORCAMENTOS_T_VEICULOS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>5B20B1F6-7500-59E6-2FB9-5CC623C43A48</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E20BDC-284F-EE4E-4A9F-63BA33137772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

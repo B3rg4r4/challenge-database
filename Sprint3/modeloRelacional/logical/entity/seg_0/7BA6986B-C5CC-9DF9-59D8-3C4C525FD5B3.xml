@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BA6986B-C5CC-9DF9-59D8-3C4C525FD5B3" name="T_PECAS">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:46:13 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pecas" id="EF23F4E4-F888-6F09-7E0C-977902457BBA">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:53:59 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pecas" id="A8A0CEB1-EB5D-2439-CC06-F2496D393B8B">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:53:59 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local_pecas" id="79C6BC39-6C2A-0209-F17A-7097CB600AE1">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:53:59 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_pecas" id="F6AE2884-ADB9-18A7-073B-7F4712BFFF74">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:53:59 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_venda" id="E3F4C3FB-F260-E173-5538-59279106B870">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:54:00 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A846F484-7BBE-BFC3-D5E8-E0B4A266DA03" name="T_PECAS PK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:54:26 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF23F4E4-F888-6F09-7E0C-977902457BBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

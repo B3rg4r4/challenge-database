@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9A3D4FA-A89B-8CD5-D85D-F2B7167FB212" name="T_PLANOS">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 18:47:04 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_planos" id="E2B469D4-F53A-9491-8F85-3D7AB061BCA7">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:07:17 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_planos" id="B0CA3106-91E1-BD6C-4AD1-9BEBCDE02135">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:07:18 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="E2ABFBB3-E27F-D42A-DDA6-3FB9A309D585">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:07:18 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_planos" id="F7626AED-60B0-AD78-7836-F8A9A156A0F4">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:07:18 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="801FAEF5-0EAF-C334-A3E9-673497E89D63">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:16:24 UTC</createdTime>
+<generatorID>7D42EB32-D043-CCEA-0406-D0A66F4431E8</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<referedAttribute>D39E592A-CC1E-F648-B8F7-8B1FE033DCC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EC9322D-227B-70BC-B3AA-0E8233EDFC13" name="T_PLANOS PK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:07:56 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="CB18E6B1-DBC6-2771-07BE-C2B330DD10B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2B469D4-F53A-9491-8F85-3D7AB061BCA7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

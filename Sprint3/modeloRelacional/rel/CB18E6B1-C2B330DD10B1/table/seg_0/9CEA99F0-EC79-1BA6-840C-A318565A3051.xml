@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CEA99F0-EC79-1BA6-840C-A318565A3051" name="Relation_9">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PECAS_id_pecas" id="92737D27-740C-217A-A5E2-539F5172D0B6">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFBC1E47-B6BB-23F2-DA85-B5F760E7CF76" referredColumn="A2ED5052-2DF5-A71D-58F3-761117D2FEE3"/>
+</associations>
+</Column>
+<Column name="T_OFICINAS_id_oficinas" id="50DA3F40-8FDB-0C5D-880E-0CF35DA95404">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9887EA88-CF80-815A-F0EC-9C0DF9AA08EB" referredColumn="1C1BAE86-6609-45EF-6787-86BBB53A65AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13A51A9F-0B10-5F39-1AB3-89511AEE557F" name="Relation_9_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92737D27-740C-217A-A5E2-539F5172D0B6"/>
+<colUsage columnID="50DA3F40-8FDB-0C5D-880E-0CF35DA95404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD305933-92E4-6982-4DDB-D64FC4B134F9" name="Relation_9_T_PECAS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>BEC2C657-7D66-4133-B09A-0466E0D92140</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92737D27-740C-217A-A5E2-539F5172D0B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C49924C8-3892-1AD1-6C06-D6E730DD141E" name="Relation_9_T_OFICINAS_FK">
+<createdBy>pedro</createdBy>
+<createdTime>2024-09-15 19:22:06 UTC</createdTime>
+<generatorID>BEC2C657-7D66-4133-B09A-0466E0D92140</generatorID>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50DA3F40-8FDB-0C5D-880E-0CF35DA95404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
